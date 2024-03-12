@@ -4,6 +4,15 @@
   background-color: #fff;
 }
 
+.header-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 .span-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -24,6 +33,7 @@
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 .span-footer {
@@ -42,6 +52,16 @@
   background-color: #fff;
 }
 
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
 .header-list-link {
   font-size: 16px;
   font-weight: 500;
@@ -87,6 +107,8 @@
 
 .the-first-section {
   background: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
 
 .main-section-header {
@@ -96,6 +118,9 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
 }
 
 .btn-order-service {
