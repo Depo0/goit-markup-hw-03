@@ -17,6 +17,7 @@ address {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px 0 15px
 }
 
 .list {
@@ -24,10 +25,18 @@ address {
   background-color: #fff;
 }
 
+.image {
+  display: block;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-div{
@@ -69,9 +78,8 @@ address {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-right: 336px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
@@ -128,6 +136,8 @@ address {
   background: #2e2f42;
   width: 1440px;
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-section-header {
@@ -139,7 +149,7 @@ address {
   color: #fff;
   display: flex;
   justify-content: center;
-  padding-top: 188px;
+  max-width: 496px; 
   padding-right: 330px;
   padding-left: 330px;
   margin-top: 0px;
@@ -153,12 +163,14 @@ address {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
   margin-left: 490px;
   margin-right: 490px;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
+  border: none;
   border-radius: 4px;
 }
 
@@ -170,13 +182,35 @@ address {
   background-color: #404bbf;
 }
 
+.the-second-section {
+  padding: 120px 0 120px
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .solution-list {
   display: flex;
   align-items: center;
-  margin-top: 120px;
   margin-bottom: 120px;
   gap: 24px;
 }
+
+.solution-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .the-third-section {
   background: #f4f4fd;
 }
@@ -187,6 +221,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .solution-texts {
@@ -206,6 +241,11 @@ address {
   background-color: #fff;
   padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.div-workers {
+  padding: 32px 0 32px
 }
 .our-team {
   font-weight: 700;
@@ -216,7 +256,7 @@ address {
   text-align: center;
   text-transform: capitalize;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .workers {
@@ -225,6 +265,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
   color: #2e2f42;
 }
 
@@ -234,6 +275,10 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.the-forth-section {
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -257,6 +302,10 @@ address {
   margin-bottom: 120px;
 }
 
+.portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-list-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -274,9 +323,17 @@ address {
   margin-top: 4px;
 }
 
+.portfolio-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 footer {
   background: #2e2f42;
   height: 312px;
+  padding: 100px 0 100px;
 }
 
 .span-footer {
@@ -302,7 +359,7 @@ footer {
   text-decoration: none;
   display: inline-block;
   margin-top: 100px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   margin-left: 156px;
 }
 
@@ -313,5 +370,4 @@ footer {
   color: #f4f4fd;
   margin-right: 736px;
   margin-left: 156px;
-  margin-top: 8px;
 }
