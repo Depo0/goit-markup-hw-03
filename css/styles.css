@@ -13,15 +13,21 @@ a {
 address {
   font-style: normal;
 }
-.body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
-}
 
 .container {
   width: 1158px;
   margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  background-color: #fff;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
 
 .header-div{
@@ -58,34 +64,6 @@ address {
   margin-right: 76px;
   margin-top: 24px;
   margin-bottom: 24px;
-}
-
-.span-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
-  text-decoration: none;
-}
-
-.web-logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  margin-top: 100px;
-  margin-bottom: 188px;
-}
-.list {
-  list-style: none;
-  background-color: #fff;
 }
 
 .nav-list {
@@ -258,20 +236,6 @@ address {
   color: #434455;
 }
 
-footer {
-  background: #2e2f42;
-  height: 312px;
-}
-
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  margin-right: 736px;
-  margin-left: 156px;
-}
-
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -293,11 +257,6 @@ footer {
   margin-bottom: 120px;
 }
 
-.portfolio-list-item {
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
-}
 .portfolio-list-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -312,4 +271,42 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+footer {
+  background: #2e2f42;
+  height: 312px;
+}
+
+.span-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+.web-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-bottom: 188px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-right: 736px;
+  margin-left: 156px;
 }
