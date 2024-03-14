@@ -263,12 +263,18 @@ address {
 
 }
 
+.div-workers {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: inline;
+}
 .workers {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
   color: #2e2f42;
+  text-align: center;
 }
 
 .position {
@@ -276,6 +282,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .the-forth-section {
