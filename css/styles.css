@@ -144,14 +144,12 @@ address {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   display: flex;
   justify-content: center;
   max-width: 496px; 
-  padding-right: 330px;
-  padding-left: 330px;
+  margin-left: 160px;
   margin-top: 0px;
 }
 
@@ -159,17 +157,20 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  text-align: center;
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
   display: block;
-  min-width: 169px;
+  width: 169px;
   height: 56px;
-  margin-left: 490px;
-  margin-right: 490px;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: 320px;
+  margin-right: 460px;
+  margin-top: 48px;
   border: none;
   border-radius: 4px;
 }
@@ -192,8 +193,7 @@ address {
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
-  
+  padding: 0; 
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -209,11 +209,6 @@ address {
 
 .solution-list-item {
   width: calc((100% - 72px) / 4);
-}
-
-.the-third-section {
-  background: #f4f4fd;
-  padding: 120px 0 120px;
 }
 
 .solutions {
@@ -232,6 +227,23 @@ address {
   color: #434455;
 }
 
+.the-third-section {
+  background: #f4f4fd;
+  padding: 120px 0 120px;
+}
+
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
 .our-team-list {
   display: flex;
   gap: 24px;
@@ -247,17 +259,6 @@ address {
 
 .div-workers {
   padding: 32px 0 32px
-}
-.our-team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: center;
-  text-transform: capitalize;
-  padding-top: 120px;
-  margin-bottom: 72px;
 }
 
 .workers {
