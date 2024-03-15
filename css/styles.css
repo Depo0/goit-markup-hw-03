@@ -263,10 +263,10 @@ address {
 
 }
 
-.div-workers {
+.workers-container {
   padding-top: 32px;
   padding-bottom: 32px;
-  display: inline;
+  display: contents;
 }
 .workers {
   font-weight: 500;
