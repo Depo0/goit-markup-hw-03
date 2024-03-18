@@ -137,7 +137,6 @@ address {
 
 .the-first-section {
   background: #2e2f42;
-  width: 1440px;
   height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -232,7 +231,6 @@ address {
 
 .the-third-section {
   background-color: #f4f4fd;
-  width: 1440px;
   padding: 120px 0 120px;
 }
 
@@ -252,8 +250,6 @@ address {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .team-list-item {
@@ -334,7 +330,6 @@ address {
 
 footer {
   background: #2e2f42;
-  width: 1440px;
   height: 312px;
   padding: 100px 0 100px;
 }
