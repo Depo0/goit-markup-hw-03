@@ -252,6 +252,8 @@ address {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .team-list-item {
